@@ -1,0 +1,22 @@
+{
+  "name": "BKNetWork",
+  "version": "0.1.0",
+  "summary": "A short description of BKNetWork.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/BichKhun/BKNetWork",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "BichKhun": "929329224@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/BichKhun/BKNetWork.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "BKNetWork/Classes/**/*"
+}

@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3FF40C38A0126C4CA9001467 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3FF40C38A0126C4CA9001467 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5D095D87B76EE7227BF974EB /* Pods_BKNetWork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BKNetWork_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* BKNetWork_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BKNetWork_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,9 +64,9 @@
 		A7174D805CFB4D5486D61BBE /* Pods_BKNetWork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BKNetWork_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C58FEEC9AAA2531785E9353E /* Pods-BKNetWork_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BKNetWork_Tests.release.xcconfig"; path = "Target Support Files/Pods-BKNetWork_Tests/Pods-BKNetWork_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DEDDE3FDA94E3085411EF7F5 /* Pods-BKNetWork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BKNetWork_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BKNetWork_Tests/Pods-BKNetWork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EBB65FB2BC1A78CB01BE5C8B /* BKNetWork.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BKNetWork.podspec; path = ../BKNetWork.podspec; sourceTree = "<group>"; };
+		EBB65FB2BC1A78CB01BE5C8B /* BKNetWork.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BKNetWork.podspec; path = ../BKNetWork.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F1A98D34048DE2E7D0F373C9 /* Pods-BKNetWork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BKNetWork_Example.release.xcconfig"; path = "Target Support Files/Pods-BKNetWork_Example/Pods-BKNetWork_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FD7F607090FCDBD8617E76EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FD7F607090FCDBD8617E76EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				DEDDE3FDA94E3085411EF7F5 /* Pods-BKNetWork_Tests.debug.xcconfig */,
 				C58FEEC9AAA2531785E9353E /* Pods-BKNetWork_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = YBK;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 4P8WJ3FT55;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 6F8D37821ED011DB2B8D3BC8 /* Pods-BKNetWork_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4P8WJ3FT55;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BKNetWork/BKNetWork-Prefix.pch";
 				INFOPLIST_FILE = "BKNetWork/BKNetWork-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = F1A98D34048DE2E7D0F373C9 /* Pods-BKNetWork_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4P8WJ3FT55;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BKNetWork/BKNetWork-Prefix.pch";
 				INFOPLIST_FILE = "BKNetWork/BKNetWork-Info.plist";
