@@ -1,0 +1,15 @@
+//
+//  BKAppDelegate.h
+//  BKNetWork
+//
+//  Created by YBK on 05/17/2021.
+//  Copyright (c) 2021 YBK. All rights reserved.
+//
+
+@import UIKit;
+
+@interface BKAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
+
+@end
